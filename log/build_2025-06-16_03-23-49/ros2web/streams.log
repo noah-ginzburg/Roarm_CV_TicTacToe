@@ -1,0 +1,20 @@
+[0.446s] Invoking command in '/home/ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web': PYTHONPATH=/home/ws/roarm_ws_em0/build/ros2web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/ros2web build --build-base /home/ws/roarm_ws_em0/build/ros2web/build install --record /home/ws/roarm_ws_em0/build/ros2web/install.log --single-version-externally-managed install_data
+[0.595s] running egg_info
+[0.596s] writing ../../../../build/ros2web/ros2web.egg-info/PKG-INFO
+[0.598s] writing dependency_links to ../../../../build/ros2web/ros2web.egg-info/dependency_links.txt
+[0.598s] writing entry points to ../../../../build/ros2web/ros2web.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../../../build/ros2web/ros2web.egg-info/requires.txt
+[0.598s] writing top-level names to ../../../../build/ros2web/ros2web.egg-info/top_level.txt
+[0.599s] reading manifest file '../../../../build/ros2web/ros2web.egg-info/SOURCES.txt'
+[0.600s] writing manifest file '../../../../build/ros2web/ros2web.egg-info/SOURCES.txt'
+[0.600s] running build
+[0.600s] running build_py
+[0.601s] running install
+[0.601s] running install_lib
+[0.603s] running install_data
+[0.603s] running install_egg_info
+[0.605s] removing '/home/ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages/ros2web-0.0.1-py3.10.egg-info' (and everything under it)
+[0.605s] Copying ../../../../build/ros2web/ros2web.egg-info to /home/ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages/ros2web-0.0.1-py3.10.egg-info
+[0.606s] running install_scripts
+[0.619s] writing list of installed files to '/home/ws/roarm_ws_em0/build/ros2web/install.log'
+[0.639s] Invoked command in '/home/ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web' returned '0': PYTHONPATH=/home/ws/roarm_ws_em0/build/ros2web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/ros2web build --build-base /home/ws/roarm_ws_em0/build/ros2web/build install --record /home/ws/roarm_ws_em0/build/ros2web/install.log --single-version-externally-managed install_data

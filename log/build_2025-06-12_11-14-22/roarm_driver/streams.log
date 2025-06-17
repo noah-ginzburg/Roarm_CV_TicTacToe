@@ -1,0 +1,21 @@
+[0.572s] Invoking command in '/home/ws/roarm_ws_em0/src/roarm_main/roarm_driver': PYTHONPATH=/home/ws/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/ws/roarm_ws_em0/build/roarm_driver/build install --record /home/ws/roarm_ws_em0/build/roarm_driver/install.log --single-version-externally-managed install_data
+[0.741s] running egg_info
+[0.741s] writing ../../../build/roarm_driver/roarm_driver.egg-info/PKG-INFO
+[0.743s] writing dependency_links to ../../../build/roarm_driver/roarm_driver.egg-info/dependency_links.txt
+[0.743s] writing entry points to ../../../build/roarm_driver/roarm_driver.egg-info/entry_points.txt
+[0.743s] writing requirements to ../../../build/roarm_driver/roarm_driver.egg-info/requires.txt
+[0.743s] writing top-level names to ../../../build/roarm_driver/roarm_driver.egg-info/top_level.txt
+[0.743s] reading manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[0.744s] writing manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[0.744s] running build
+[0.744s] running build_py
+[0.744s] running install
+[0.744s] running install_lib
+[0.745s] running install_data
+[0.745s] running install_egg_info
+[0.747s] removing '/home/ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[0.747s] Copying ../../../build/roarm_driver/roarm_driver.egg-info to /home/ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver-0.0.0-py3.10.egg-info
+[0.747s] running install_scripts
+[0.763s] Installing roarm_driver script to /home/ws/roarm_ws_em0/install/roarm_driver/lib/roarm_driver
+[0.763s] writing list of installed files to '/home/ws/roarm_ws_em0/build/roarm_driver/install.log'
+[0.785s] Invoked command in '/home/ws/roarm_ws_em0/src/roarm_main/roarm_driver' returned '0': PYTHONPATH=/home/ws/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/ws/roarm_ws_em0/build/roarm_driver/build install --record /home/ws/roarm_ws_em0/build/roarm_driver/install.log --single-version-externally-managed install_data

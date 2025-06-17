@@ -1,0 +1,41 @@
+[0.568s] Invoking command in '/home/ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py': AMENT_PREFIX_PATH=/home/ws/roarm_ws_em0/install/ros2web:/home/ws/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/ws/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/roarm_ws_em0/build/ros2web_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages:/home/ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/ws/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_example_py build --build-base /home/ws/roarm_ws_em0/build/ros2web_example_py/build install --record /home/ws/roarm_ws_em0/build/ros2web_example_py/install.log --single-version-externally-managed install_data
+[0.732s] running egg_info
+[0.733s] creating ../../../../../build/ros2web_example_py/ros2web_example_py.egg-info
+[0.733s] writing ../../../../../build/ros2web_example_py/ros2web_example_py.egg-info/PKG-INFO
+[0.734s] writing dependency_links to ../../../../../build/ros2web_example_py/ros2web_example_py.egg-info/dependency_links.txt
+[0.734s] writing entry points to ../../../../../build/ros2web_example_py/ros2web_example_py.egg-info/entry_points.txt
+[0.734s] writing requirements to ../../../../../build/ros2web_example_py/ros2web_example_py.egg-info/requires.txt
+[0.734s] writing top-level names to ../../../../../build/ros2web_example_py/ros2web_example_py.egg-info/top_level.txt
+[0.734s] writing manifest file '../../../../../build/ros2web_example_py/ros2web_example_py.egg-info/SOURCES.txt'
+[0.736s] reading manifest file '../../../../../build/ros2web_example_py/ros2web_example_py.egg-info/SOURCES.txt'
+[0.737s] writing manifest file '../../../../../build/ros2web_example_py/ros2web_example_py.egg-info/SOURCES.txt'
+[0.737s] running build
+[0.737s] running build_py
+[0.737s] creating /home/ws/roarm_ws_em0/build/ros2web_example_py/build
+[0.737s] creating /home/ws/roarm_ws_em0/build/ros2web_example_py/build/lib
+[0.737s] creating /home/ws/roarm_ws_em0/build/ros2web_example_py/build/lib/ros2web_example_py
+[0.738s] copying ros2web_example_py/api.py -> /home/ws/roarm_ws_em0/build/ros2web_example_py/build/lib/ros2web_example_py
+[0.738s] copying ros2web_example_py/__init__.py -> /home/ws/roarm_ws_em0/build/ros2web_example_py/build/lib/ros2web_example_py
+[0.738s] copying ros2web_example_py/form.py -> /home/ws/roarm_ws_em0/build/ros2web_example_py/build/lib/ros2web_example_py
+[0.738s] running install
+[0.739s] running install_lib
+[0.739s] creating /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web_example_py
+[0.739s] copying /home/ws/roarm_ws_em0/build/ros2web_example_py/build/lib/ros2web_example_py/api.py -> /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web_example_py
+[0.740s] copying /home/ws/roarm_ws_em0/build/ros2web_example_py/build/lib/ros2web_example_py/__init__.py -> /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web_example_py
+[0.740s] copying /home/ws/roarm_ws_em0/build/ros2web_example_py/build/lib/ros2web_example_py/form.py -> /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web_example_py
+[0.741s] byte-compiling /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web_example_py/api.py to api.cpython-310.pyc
+[0.741s] byte-compiling /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web_example_py/__init__.py to __init__.cpython-310.pyc
+[0.741s] byte-compiling /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web_example_py/form.py to form.cpython-310.pyc
+[0.742s] running install_data
+[0.742s] creating /home/ws/roarm_ws_em0/install/ros2web_example_py/share/ament_index
+[0.742s] creating /home/ws/roarm_ws_em0/install/ros2web_example_py/share/ament_index/resource_index
+[0.742s] creating /home/ws/roarm_ws_em0/install/ros2web_example_py/share/ament_index/resource_index/packages
+[0.742s] copying resource/ros2web_example_py -> /home/ws/roarm_ws_em0/install/ros2web_example_py/share/ament_index/resource_index/packages
+[0.742s] copying package.xml -> /home/ws/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py
+[0.745s] running install_egg_info
+[0.745s] Copying ../../../../../build/ros2web_example_py/ros2web_example_py.egg-info to /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web_example_py-0.0.0-py3.10.egg-info
+[0.747s] running install_scripts
+[0.764s] Installing api script to /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/ros2web_example_py
+[0.765s] Installing form script to /home/ws/roarm_ws_em0/install/ros2web_example_py/lib/ros2web_example_py
+[0.765s] writing list of installed files to '/home/ws/roarm_ws_em0/build/ros2web_example_py/install.log'
+[0.782s] Invoked command in '/home/ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py' returned '0': AMENT_PREFIX_PATH=/home/ws/roarm_ws_em0/install/ros2web:/home/ws/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/ws/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/roarm_ws_em0/build/ros2web_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages:/home/ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/ws/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_example_py build --build-base /home/ws/roarm_ws_em0/build/ros2web_example_py/build install --record /home/ws/roarm_ws_em0/build/ros2web_example_py/install.log --single-version-externally-managed install_data
