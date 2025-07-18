@@ -1368,9 +1368,9 @@ CMakeFiles/movepointcmd.dir/src/movepointcmd.cpp.o
  /usr/include/kdl/utilities/kdl-config.h
  /usr/include/kdl/frames.inl
  /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h
- /home/ws/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_point_cmd.hpp
- /home/ws/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__struct.hpp
- /home/ws/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__builder.hpp
- /home/ws/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__traits.hpp
+ /home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_generator_cpp/roarm_moveit/srv/move_point_cmd.hpp
+ /home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_generator_cpp/roarm_moveit/srv/detail/move_point_cmd__struct.hpp
+ /home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_generator_cpp/roarm_moveit/srv/detail/move_point_cmd__builder.hpp
+ /home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_generator_cpp/roarm_moveit/srv/detail/move_point_cmd__traits.hpp
  /home/ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/include/roarm_moveit_cmd/ik.h
 

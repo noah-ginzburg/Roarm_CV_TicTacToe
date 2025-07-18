@@ -1,2 +1,1 @@
-from ros2web_interfaces.srv._http import HTTP  # noqa: F401
-from ros2web_interfaces.srv._ws import WS  # noqa: F401
+/home/ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_py/ros2web_interfaces/srv/__init__.py

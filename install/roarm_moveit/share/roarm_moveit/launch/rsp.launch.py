@@ -1,7 +1,1 @@
-from moveit_configs_utils import MoveItConfigsBuilder
-from moveit_configs_utils.launches import generate_rsp_launch
-
-
-def generate_launch_description():
-    moveit_config = MoveItConfigsBuilder("roarm_description", package_name="roarm_moveit").to_moveit_configs()
-    return generate_rsp_launch(moveit_config)
+/home/ws/roarm_ws_em0/src/roarm_main/roarm_moveit/launch/rsp.launch.py

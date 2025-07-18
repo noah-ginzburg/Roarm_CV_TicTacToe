@@ -1,5 +1,1 @@
-
-# 响应部分
-float64 x    # 目标位置的x坐标
-float64 y    # 目标位置的y坐标
-float64 z    # 目标位置的z坐标
+/home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_cmake/srv/GetPoseCmd_Response.msg

@@ -1,13 +1,1 @@
-string srv_name
-string route
-
-uint8 type # WSMsgType
-string ws_id
-WSMsgData data
-string extra
----
-uint8 type # WSMsgType
-string ws_id
-WSMsgData data
-string extra
-
+/home/ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/srv/WS.srv

@@ -1,4 +1,1 @@
-
-bool success    # 执行是否成功的标志
-string message  # 执行结果的消息
-
+/home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_cmake/srv/MoveCircleCmd_Response.msg

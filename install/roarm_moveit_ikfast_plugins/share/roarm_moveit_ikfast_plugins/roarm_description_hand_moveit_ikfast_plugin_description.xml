@@ -1,6 +1,1 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<library path="roarm_description_hand_moveit_ikfast_plugin">
-  <class name="roarm_description_hand/IKFastKinematicsPlugin" type="roarm_description_hand::IKFastKinematicsPlugin" base_class_type="kinematics::KinematicsBase">
-    <description>IKFast61 plugin for closed-form kinematics of roarm_description hand</description>
-  </class>
-</library>
+/home/ws/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins/roarm_description_hand_moveit_ikfast_plugin_description.xml

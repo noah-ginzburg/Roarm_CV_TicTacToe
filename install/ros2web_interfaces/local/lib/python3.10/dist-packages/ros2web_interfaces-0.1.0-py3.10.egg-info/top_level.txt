@@ -1,1 +1,1 @@
-ros2web_interfaces
+/home/ws/roarm_ws_em0/build/ros2web_interfaces/ament_cmake_python/ros2web_interfaces/ros2web_interfaces.egg-info/top_level.txt

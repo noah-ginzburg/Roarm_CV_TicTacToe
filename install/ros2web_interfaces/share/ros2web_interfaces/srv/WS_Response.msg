@@ -1,6 +1,1 @@
-
-uint8 type # WSMsgType
-string ws_id
-WSMsgData data
-string extra
-
+/home/ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_cmake/srv/WS_Response.msg

@@ -1,13 +1,1 @@
-uint8 CONTINUATION=0
-
-uint8 TEXT=1
-uint8 BINARY=2
-
-uint8 PING=11
-uint8 PONG=12
-
-uint8 CLOSE=21
-uint8 CLOSING=22
-uint8 CLOSED=23
-
-uint8 ERROR=31
+/home/ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/WSMsgType.msg

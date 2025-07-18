@@ -1,11 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef ROARM_MOVEIT__SRV__GET_POSE_CMD_HPP_
-#define ROARM_MOVEIT__SRV__GET_POSE_CMD_HPP_
-
-#include "roarm_moveit/srv/detail/get_pose_cmd__struct.hpp"
-#include "roarm_moveit/srv/detail/get_pose_cmd__builder.hpp"
-#include "roarm_moveit/srv/detail/get_pose_cmd__traits.hpp"
-
-#endif  // ROARM_MOVEIT__SRV__GET_POSE_CMD_HPP_
+/home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_generator_cpp/roarm_moveit/srv/get_pose_cmd.hpp
