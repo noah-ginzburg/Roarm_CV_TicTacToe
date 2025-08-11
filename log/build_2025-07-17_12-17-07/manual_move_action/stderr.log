@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/ws/roarm_ws_em0/build/manual_move_action/ament_cmake_python/manual_move_action/manual_move_action' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_manual_move_action.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_manual_move_action] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/ament_cmake_python_symlink_manual_move_action.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

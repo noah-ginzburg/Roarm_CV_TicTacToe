@@ -1,0 +1,10 @@
+[0mmoveit_servo: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+gmake[2]: *** [CMakeFiles/pose_tracking.dir/build.make:76: CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:230: CMakeFiles/pose_tracking.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:480: CMakeFiles/servo_calcs_unit_tests.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/servo_node.dir/build.make:76: CMakeFiles/servo_node.dir/src/servo_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:257: CMakeFiles/servo_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

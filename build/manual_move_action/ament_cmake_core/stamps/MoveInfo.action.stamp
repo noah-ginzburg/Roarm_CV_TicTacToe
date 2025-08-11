@@ -1,0 +1,14 @@
+# Goal
+float64 x
+float64 y
+float64 z
+float64 t  # t = gripper target position
+
+---
+# Result
+bool success
+string message
+
+---
+# Feedback
+float64 progress

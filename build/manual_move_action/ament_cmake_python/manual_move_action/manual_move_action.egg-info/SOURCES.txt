@@ -1,0 +1,8 @@
+setup.py
+manual_move_action/__init__.py
+manual_move_action.egg-info/PKG-INFO
+manual_move_action.egg-info/SOURCES.txt
+manual_move_action.egg-info/dependency_links.txt
+manual_move_action.egg-info/top_level.txt
+manual_move_action/action/__init__.py
+manual_move_action/action/_move_info.py

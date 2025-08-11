@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.001233] (-) JobUnselected: {'identifier': 'launch_api'}
+[0.001297] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001311] (-) JobUnselected: {'identifier': 'roarm_description'}
+[0.001319] (-) JobUnselected: {'identifier': 'roarm_driver'}
+[0.001326] (-) JobUnselected: {'identifier': 'roarm_moveit'}
+[0.001333] (-) JobUnselected: {'identifier': 'roarm_moveit_cmd'}
+[0.001340] (-) JobUnselected: {'identifier': 'roarm_moveit_ikfast_plugins'}
+[0.001347] (-) JobUnselected: {'identifier': 'roarm_web_app'}
+[0.001354] (-) JobUnselected: {'identifier': 'ros2web'}
+[0.001362] (-) JobUnselected: {'identifier': 'ros2web_app'}
+[0.001369] (-) JobUnselected: {'identifier': 'ros2web_example_py'}
+[0.001376] (-) JobUnselected: {'identifier': 'ros2web_interfaces'}
+[0.001383] (-) JobUnselected: {'identifier': 'ros2web_widgets'}
+[0.001433] (manual_move_action) JobQueued: {'identifier': 'manual_move_action', 'dependencies': OrderedDict([('roarm_description', '/home/ws/roarm_ws_em0/install/roarm_description'), ('roarm_moveit', '/home/ws/roarm_ws_em0/install/roarm_moveit')])}
+[0.001453] (manual_move_action) JobStarted: {'identifier': 'manual_move_action'}
+[0.100158] (-) TimerEvent: {}
+[0.159358] (manual_move_action) JobEnded: {'identifier': 'manual_move_action', 'rc': 1}
+[0.170372] (-) EventReactorShutdown: {}

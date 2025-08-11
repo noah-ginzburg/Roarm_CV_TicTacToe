@@ -1,0 +1,119 @@
+[0.012s] Invoking command in '/home/ws/roarm_ws_em0/build/manual_move_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/roarm_ws_em0/install/ros2web_widgets:/home/ws/roarm_ws_em0/install/ros2web_example_py:/home/ws/roarm_ws_em0/install/roarm_web_app:/home/ws/roarm_ws_em0/install/ros2web_app:/home/ws/roarm_ws_em0/install/ros2web:/home/ws/roarm_ws_em0/install/roarm_driver:/home/ws/roarm_ws_em0/install/launch_api:/opt/ros/humble /usr/bin/cmake /home/ws/roarm_ws_em0/src/roarm_main/manual_move_action -DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/manual_move_action
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.306s] -- Detecting CXX compiler ABI info - done
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.312s] -- Detecting CXX compile features - done
+[0.314s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.461s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.522s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.545s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.549s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.554s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.601s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.706s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.739s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.747s] -- Looking for pthread.h
+[0.826s] -- Looking for pthread.h - found
+[0.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.916s] -- Found Threads: TRUE  
+[0.954s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.979s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.998s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.217s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.627s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.630s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.652s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.652s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.652s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.652s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.674s] -- Found PythonExtra: .so  
+[1.716s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.730s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.730s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.731s] -- Configured cppcheck include dirs: 
+[1.731s] -- Configured cppcheck exclude dirs and/or files: 
+[1.732s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.732s] -- Configured cpplint exclude dirs and/or files: 
+[1.733s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.733s] -- Added test 'lint_cmake' to check CMake code style
+[1.735s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.735s] -- Added test 'uncrustify' to check C / C++ code style
+[1.735s] -- Configured uncrustify additional arguments: 
+[1.735s] -- Added test 'xmllint' to check XML markup files
+[1.738s] -- Configuring done
+[1.778s] -- Generating done
+[1.780s] -- Build files have been written to: /home/ws/roarm_ws_em0/build/manual_move_action
+[1.791s] Invoked command in '/home/ws/roarm_ws_em0/build/manual_move_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/roarm_ws_em0/install/ros2web_widgets:/home/ws/roarm_ws_em0/install/ros2web_example_py:/home/ws/roarm_ws_em0/install/roarm_web_app:/home/ws/roarm_ws_em0/install/ros2web_app:/home/ws/roarm_ws_em0/install/ros2web:/home/ws/roarm_ws_em0/install/roarm_driver:/home/ws/roarm_ws_em0/install/launch_api:/opt/ros/humble /usr/bin/cmake /home/ws/roarm_ws_em0/src/roarm_main/manual_move_action -DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/manual_move_action
+[1.793s] Invoking command in '/home/ws/roarm_ws_em0/build/manual_move_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/roarm_ws_em0/install/ros2web_widgets:/home/ws/roarm_ws_em0/install/ros2web_example_py:/home/ws/roarm_ws_em0/install/roarm_web_app:/home/ws/roarm_ws_em0/install/ros2web_app:/home/ws/roarm_ws_em0/install/ros2web:/home/ws/roarm_ws_em0/install/roarm_driver:/home/ws/roarm_ws_em0/install/launch_api:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/manual_move_action -- -j4 -l4
+[1.836s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.848s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.860s] [  5%] Built target ament_cmake_python_copy_manual_move_action
+[2.094s] running egg_info
+[2.094s] creating manual_move_action.egg-info
+[2.094s] writing manual_move_action.egg-info/PKG-INFO
+[2.094s] writing dependency_links to manual_move_action.egg-info/dependency_links.txt
+[2.094s] writing top-level names to manual_move_action.egg-info/top_level.txt
+[2.094s] writing manifest file 'manual_move_action.egg-info/SOURCES.txt'
+[2.095s] reading manifest file 'manual_move_action.egg-info/SOURCES.txt'
+[2.096s] writing manifest file 'manual_move_action.egg-info/SOURCES.txt'
+[2.120s] [  5%] Built target ament_cmake_python_build_manual_move_action_egg
+[2.166s] [  5%] Built target manual_move_action__cpp
+[2.186s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.186s] [ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.188s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.269s] [ 17%] [32mBuilding C object CMakeFiles/manual_move_action__rosidl_generator_c.dir/rosidl_generator_c/manual_move_action/action/detail/move_info__functions.c.o[0m
+[2.395s] [ 20%] [32m[1mLinking C shared library libmanual_move_action__rosidl_generator_c.so[0m
+[2.411s] [ 22%] [32mBuilding CXX object CMakeFiles/manual_move_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manual_move_action/action/move_info__type_support.cpp.o[0m
+[2.436s] [ 22%] Built target manual_move_action__rosidl_generator_c
+[2.461s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.465s] [ 28%] [32mBuilding CXX object CMakeFiles/manual_move_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manual_move_action/action/detail/move_info__type_support.cpp.o[0m
+[2.484s] [ 31%] [32mBuilding CXX object CMakeFiles/manual_move_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manual_move_action/action/detail/dds_fastrtps/move_info__type_support.cpp.o[0m
+[2.789s] [ 34%] [32m[1mLinking CXX shared library libmanual_move_action__rosidl_typesupport_cpp.so[0m
+[2.843s] [ 34%] Built target manual_move_action__rosidl_typesupport_cpp
+[2.856s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.883s] [ 40%] [32m[1mLinking CXX shared library libmanual_move_action__rosidl_typesupport_introspection_cpp.so[0m
+[2.908s] [ 42%] [32mBuilding CXX object CMakeFiles/manual_move_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manual_move_action/action/detail/move_info__type_support_c.cpp.o[0m
+[2.965s] [ 42%] Built target manual_move_action__rosidl_typesupport_introspection_cpp
+[2.986s] [ 48%] [32m[1mLinking CXX shared library libmanual_move_action__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.987s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.137s] [ 51%] [32mBuilding C object CMakeFiles/manual_move_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manual_move_action/action/detail/move_info__type_support.c.o[0m
+[3.164s] [ 51%] Built target manual_move_action__rosidl_typesupport_fastrtps_cpp
+[3.189s] [ 54%] [32m[1mLinking C shared library libmanual_move_action__rosidl_typesupport_introspection_c.so[0m
+[3.192s] [ 57%] [32mBuilding CXX object CMakeFiles/manual_move_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/manual_move_action/action/move_info__type_support.cpp.o[0m
+[3.192s] [ 60%] [32mBuilding CXX object CMakeFiles/manual_move_client.dir/src/manual_move_client.cpp.o[0m
+[3.231s] [ 60%] Built target manual_move_action__rosidl_typesupport_introspection_c
+[3.243s] [ 62%] [32m[1mLinking CXX shared library libmanual_move_action__rosidl_typesupport_c.so[0m
+[3.251s] [ 65%] [32m[1mLinking CXX shared library libmanual_move_action__rosidl_typesupport_fastrtps_c.so[0m
+[3.254s] [ 68%] [32mBuilding CXX object CMakeFiles/manual_move_server.dir/src/manual_move_server.cpp.o[0m
+[3.259s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_client.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmanual_move_action/action/MoveInfo.hpp: No such file or directory
+[3.260s]     6 | #include [01;31m[K"manual_move_action/action/MoveInfo.hpp"[m[K // Replace with your action path if needed
+[3.260s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.260s] compilation terminated.
+[3.262s] gmake[2]: *** [CMakeFiles/manual_move_client.dir/build.make:76: CMakeFiles/manual_move_client.dir/src/manual_move_client.cpp.o] Error 1
+[3.262s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/manual_move_client.dir/all] Error 2
+[3.263s] gmake[1]: *** Waiting for unfinished jobs....
+[3.289s] [ 68%] Built target manual_move_action__rosidl_typesupport_c
+[3.317s] [ 68%] Built target manual_move_action__rosidl_typesupport_fastrtps_c
+[3.418s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kmanual_move_action/action/MoveInfo.hpp: No such file or directory
+[3.418s]    13 | #include [01;31m[K"manual_move_action/action/MoveInfo.hpp"[m[K // <-- Replace with your actual action header
+[3.418s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.418s] compilation terminated.
+[3.421s] gmake[2]: *** [CMakeFiles/manual_move_server.dir/build.make:76: CMakeFiles/manual_move_server.dir/src/manual_move_server.cpp.o] Error 1
+[3.421s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/manual_move_server.dir/all] Error 2
+[3.421s] gmake: *** [Makefile:146: all] Error 2
+[3.427s] Invoked command in '/home/ws/roarm_ws_em0/build/manual_move_action' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/roarm_ws_em0/install/ros2web_widgets:/home/ws/roarm_ws_em0/install/ros2web_example_py:/home/ws/roarm_ws_em0/install/roarm_web_app:/home/ws/roarm_ws_em0/install/ros2web_app:/home/ws/roarm_ws_em0/install/ros2web:/home/ws/roarm_ws_em0/install/roarm_driver:/home/ws/roarm_ws_em0/install/launch_api:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/manual_move_action -- -j4 -l4

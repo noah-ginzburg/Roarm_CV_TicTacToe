@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000276] (-) JobUnselected: {'identifier': 'launch_api'}
+[0.000588] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000688] (-) JobUnselected: {'identifier': 'roarm_description'}
+[0.000736] (-) JobUnselected: {'identifier': 'roarm_driver'}
+[0.000746] (-) JobUnselected: {'identifier': 'roarm_moveit'}
+[0.000754] (-) JobUnselected: {'identifier': 'roarm_moveit_cmd'}
+[0.002769] (-) JobUnselected: {'identifier': 'roarm_moveit_ikfast_plugins'}
+[0.002851] (-) JobUnselected: {'identifier': 'roarm_web_app'}
+[0.002898] (-) JobUnselected: {'identifier': 'ros2web'}
+[0.002907] (-) JobUnselected: {'identifier': 'ros2web_app'}
+[0.002915] (-) JobUnselected: {'identifier': 'ros2web_example_py'}
+[0.002953] (-) JobUnselected: {'identifier': 'ros2web_interfaces'}
+[0.002965] (-) JobUnselected: {'identifier': 'ros2web_widgets'}
+[0.002978] (manual_move_action) JobQueued: {'identifier': 'manual_move_action', 'dependencies': OrderedDict([('roarm_description', '/home/ws/roarm_ws_em0/install/roarm_description'), ('roarm_moveit', '/home/ws/roarm_ws_em0/install/roarm_moveit')])}
+[0.003037] (manual_move_action) JobStarted: {'identifier': 'manual_move_action'}
+[0.014879] (manual_move_action) JobProgress: {'identifier': 'manual_move_action', 'progress': 'cmake'}
+[0.015499] (manual_move_action) Command: {'cmd': ['/usr/bin/cmake', '/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action', '-DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/manual_move_action'], 'cwd': '/home/ws/roarm_ws_em0/build/manual_move_action', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ws'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ws/roarm_ws_em0/install/roarm_moveit/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ws'), ('OLDPWD', '/home/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ws/roarm_ws_em0/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ws'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ws/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ws:@/tmp/.ICE-unix/1479,unix/ws:/tmp/.ICE-unix/1479'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71f74d11_75d7_4a6d_86fa_b841f5ec83cd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NANV92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.208'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ws/roarm_ws_em0/build/manual_move_action'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:/opt/ros/humble')]), 'shell': False}
+[0.085789] (manual_move_action) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099791] (-) TimerEvent: {}
+[0.148105] (manual_move_action) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.154615] (manual_move_action) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200698] (-) TimerEvent: {}
+[0.232634] (manual_move_action) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.238422] (manual_move_action) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.238604] (manual_move_action) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.238639] (manual_move_action) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.240695] (manual_move_action) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.301584] (-) TimerEvent: {}
+[0.372670] (manual_move_action) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.385500] (manual_move_action) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.385811] (manual_move_action) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.385906] (manual_move_action) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.387102] (manual_move_action) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.403665] (-) TimerEvent: {}
+[0.505054] (-) TimerEvent: {}
+[0.571224] (manual_move_action) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.607338] (-) TimerEvent: {}
+[0.664409] (manual_move_action) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.692551] (manual_move_action) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.698315] (manual_move_action) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.702817] (manual_move_action) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.707519] (-) TimerEvent: {}
+[0.712042] (manual_move_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.726421] (manual_move_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.767898] (manual_move_action) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.768150] (manual_move_action) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.809721] (-) TimerEvent: {}
+[0.855520] (manual_move_action) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.873075] (manual_move_action) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.898457] (manual_move_action) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.907612] (manual_move_action) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.910075] (-) TimerEvent: {}
+[0.978941] (manual_move_action) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.979120] (manual_move_action) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.010606] (-) TimerEvent: {}
+[1.063728] (manual_move_action) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.063945] (manual_move_action) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.103666] (manual_move_action) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.111406] (-) TimerEvent: {}
+[1.127446] (manual_move_action) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.145503] (manual_move_action) StdoutLine: {'line': b'-- Found roarm_moveit: 0.3.0 (/home/ws/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake)\n'}
+[1.151874] (manual_move_action) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.159910] (manual_move_action) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.211620] (-) TimerEvent: {}
+[1.312977] (-) TimerEvent: {}
+[1.369530] (manual_move_action) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.417415] (-) TimerEvent: {}
+[1.518731] (-) TimerEvent: {}
+[1.621342] (-) TimerEvent: {}
+[1.649502] (manual_move_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.721643] (-) TimerEvent: {}
+[1.755423] (manual_move_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.774844] (manual_move_action) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.776018] (manual_move_action) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.797853] (manual_move_action) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.798574] (manual_move_action) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.798620] (manual_move_action) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.798650] (manual_move_action) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.818175] (manual_move_action) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.822558] (-) TimerEvent: {}
+[1.860267] (manual_move_action) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.870401] (manual_move_action) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.870629] (manual_move_action) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.870665] (manual_move_action) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.870695] (manual_move_action) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.870722] (manual_move_action) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.870748] (manual_move_action) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.870772] (manual_move_action) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.870796] (manual_move_action) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.870819] (manual_move_action) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.871200] (manual_move_action) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.871289] (manual_move_action) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.871702] (manual_move_action) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.873273] (manual_move_action) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.922843] (-) TimerEvent: {}
+[1.926848] (manual_move_action) StdoutLine: {'line': b'-- Generating done\n'}
+[1.944874] (manual_move_action) StdoutLine: {'line': b'-- Build files have been written to: /home/ws/roarm_ws_em0/build/manual_move_action\n'}
+[1.959782] (manual_move_action) CommandEnded: {'returncode': 0}
+[1.962674] (manual_move_action) JobProgress: {'identifier': 'manual_move_action', 'progress': 'build'}
+[1.963580] (manual_move_action) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/roarm_ws_em0/build/manual_move_action', '--', '-j4', '-l4'], 'cwd': '/home/ws/roarm_ws_em0/build/manual_move_action', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ws'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ws/roarm_ws_em0/install/roarm_moveit/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ws'), ('OLDPWD', '/home/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ws/roarm_ws_em0/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ws'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ws/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ws:@/tmp/.ICE-unix/1479,unix/ws:/tmp/.ICE-unix/1479'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71f74d11_75d7_4a6d_86fa_b841f5ec83cd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NANV92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.208'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ws/roarm_ws_em0/build/manual_move_action'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:/opt/ros/humble')]), 'shell': False}
+[2.006086] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_generator_c\x1b[0m\n'}
+[2.016856] (manual_move_action) StdoutLine: {'line': b'[  8%] Built target manual_move_action__rosidl_generator_c\n'}
+[2.018910] (manual_move_action) StdoutLine: {'line': b'[ 11%] Built target manual_move_action__cpp\n'}
+[2.024274] (-) TimerEvent: {}
+[2.026756] (manual_move_action) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_manual_move_action\n'}
+[2.028739] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.030769] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.032599] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_c\x1b[0m\n'}
+[2.038926] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.044839] (manual_move_action) StdoutLine: {'line': b'[ 28%] Built target manual_move_action__rosidl_typesupport_fastrtps_c\n'}
+[2.045277] (manual_move_action) StdoutLine: {'line': b'[ 28%] Built target manual_move_action__rosidl_typesupport_c\n'}
+[2.051791] (manual_move_action) StdoutLine: {'line': b'[ 37%] Built target manual_move_action__rosidl_typesupport_introspection_c\n'}
+[2.055686] (manual_move_action) StdoutLine: {'line': b'[ 45%] Built target manual_move_action__rosidl_typesupport_introspection_cpp\n'}
+[2.066636] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.067387] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.083991] (manual_move_action) StdoutLine: {'line': b'[ 54%] Built target manual_move_action__rosidl_typesupport_fastrtps_cpp\n'}
+[2.087384] (manual_move_action) StdoutLine: {'line': b'[ 62%] Built target manual_move_action__rosidl_typesupport_cpp\n'}
+[2.107097] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_client\x1b[0m\n'}
+[2.107502] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_server\x1b[0m\n'}
+[2.128748] (-) TimerEvent: {}
+[2.138819] (manual_move_action) StdoutLine: {'line': b'[ 62%] Built target manual_move_action\n'}
+[2.141568] (manual_move_action) StdoutLine: {'line': b'[ 68%] Built target manual_move_client\n'}
+[2.146400] (manual_move_action) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/manual_move_server.dir/src/manual_move_server.cpp.o\x1b[0m\n'}
+[2.177812] (manual_move_action) StdoutLine: {'line': b'[ 74%] Built target manual_move_action__py\n'}
+[2.193091] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_generator_py\x1b[0m\n'}
+[2.209140] (manual_move_action) StdoutLine: {'line': b'[ 80%] Built target manual_move_action__rosidl_generator_py\n'}
+[2.220061] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.239443] (-) TimerEvent: {}
+[2.251475] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.251633] (manual_move_action) StdoutLine: {'line': b'running egg_info\n'}
+[2.255848] (manual_move_action) StdoutLine: {'line': b'writing manual_move_action.egg-info/PKG-INFO\n'}
+[2.255966] (manual_move_action) StdoutLine: {'line': b'writing dependency_links to manual_move_action.egg-info/dependency_links.txt\n'}
+[2.256000] (manual_move_action) StdoutLine: {'line': b'writing top-level names to manual_move_action.egg-info/top_level.txt\n'}
+[2.256030] (manual_move_action) StdoutLine: {'line': b'[ 85%] Built target manual_move_action__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.256221] (manual_move_action) StdoutLine: {'line': b"reading manifest file 'manual_move_action.egg-info/SOURCES.txt'\n"}
+[2.256341] (manual_move_action) StdoutLine: {'line': b"writing manifest file 'manual_move_action.egg-info/SOURCES.txt'\n"}
+[2.278913] (manual_move_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.290532] (manual_move_action) StdoutLine: {'line': b'[ 91%] Built target manual_move_action__rosidl_typesupport_introspection_c__pyext\n'}
+[2.301937] (manual_move_action) StdoutLine: {'line': b'[ 97%] Built target manual_move_action__rosidl_typesupport_c__pyext\n'}
+[2.312958] (manual_move_action) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_manual_move_action_egg\n'}
+[2.344834] (-) TimerEvent: {}
+[2.681520] (-) TimerEvent: {}
+[2.783752] (-) TimerEvent: {}
+[2.885009] (-) TimerEvent: {}
+[2.987612] (-) TimerEvent: {}
+[3.707044] (-) TimerEvent: {}
+[3.992057] (-) TimerEvent: {}
+[3.995911] (manual_move_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse manual_move_action::MinimalActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const manual_move_action::action::MoveInfo_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.996249] (manual_move_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:71:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.996291] (manual_move_action) StderrLine: {'line': b'   71 |               \x1b[01;35m\x1b[Kstd::shared_ptr<const CustomAction::Goal> goal\x1b[m\x1b[K)\n'}
+[3.996320] (manual_move_action) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.996345] (manual_move_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse manual_move_action::MinimalActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<manual_move_action::action::MoveInfo> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.996371] (manual_move_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:79:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.996401] (manual_move_action) StderrLine: {'line': b'   79 |   handle_cancel(\x1b[01;35m\x1b[Kconst std::shared_ptr<GoalHandle> goal_handle\x1b[m\x1b[K)\n'}
+[3.996426] (manual_move_action) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.706305] (-) TimerEvent: {}
+[4.939078] (-) TimerEvent: {}
+[5.039776] (-) TimerEvent: {}
+[5.158313] (-) TimerEvent: {}
+[5.406548] (-) TimerEvent: {}
+[6.069717] (-) TimerEvent: {}
+[6.183011] (-) TimerEvent: {}
+[6.286898] (-) TimerEvent: {}
+[6.297714] (manual_move_action) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable manual_move_server\x1b[0m\n'}
+[6.387022] (-) TimerEvent: {}
+[6.488723] (-) TimerEvent: {}
+[6.491572] (manual_move_action) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[6.491906] (manual_move_action) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[6.508969] (manual_move_action) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[6.511719] (manual_move_action) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/manual_move_server.dir/build.make:197: manual_move_server] Error 1\n'}
+[6.512136] (manual_move_action) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/manual_move_server.dir/all] Error 2\n'}
+[6.512438] (manual_move_action) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.515241] (manual_move_action) CommandEnded: {'returncode': 2}
+[6.588955] (-) TimerEvent: {}
+[6.655387] (manual_move_action) JobEnded: {'identifier': 'manual_move_action', 'rc': 2}
+[6.666367] (-) EventReactorShutdown: {}

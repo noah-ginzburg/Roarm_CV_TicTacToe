@@ -1,0 +1,94 @@
+[0.009s] Invoking command in '/home/ws/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/moveit_servo -- -j4 -l4
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target servo_controller_input[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target fake_command_publisher[0m
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target moveit_servo_lib_parameters[0m
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.145s] [  6%] Built target gtest_main
+[0.146s] [ 12%] Built target servo_controller_input
+[0.148s] [ 18%] Built target fake_command_publisher
+[0.163s] [ 27%] Built target moveit_servo_lib_parameters
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target moveit_servo_lib[0m
+[0.210s] [ 33%] Built target gtest
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target test_servo_integration[0m
+[0.234s] [35m[1mConsolidate compiler generated dependencies of target test_servo_collision[0m
+[0.236s] [ 51%] Built target moveit_servo_lib
+[0.272s] [ 57%] Built target test_servo_integration
+[0.276s] [ 63%] Built target test_servo_collision
+[0.277s] [ 66%] [32mBuilding CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o[0m
+[0.281s] [ 69%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[0.302s] [ 72%] [32mBuilding CXX object CMakeFiles/servo_calcs_unit_tests.dir/test/servo_calcs_unit_tests.cpp.o[0m
+[10.182s] [ 75%] [32m[1mLinking CXX shared library libservo_node.so[0m
+[10.384s] [ 75%] Built target servo_node
+[10.426s] [ 78%] [32mBuilding CXX object CMakeFiles/servo_node_main.dir/src/servo_node_main.cpp.o[0m
+[17.289s] [ 81%] [32m[1mLinking CXX shared library libpose_tracking.so[0m
+[17.524s] [ 81%] Built target pose_tracking
+[17.564s] [ 84%] [32mBuilding CXX object CMakeFiles/test_servo_pose_tracking.dir/test/pose_tracking_test.cpp.o[0m
+[17.605s] [ 87%] [32mBuilding CXX object CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o[0m
+[18.760s] [ 90%] [32m[1mLinking CXX executable servo_node_main[0m
+[19.038s] [ 90%] Built target servo_node_main
+[19.779s] [ 93%] [32m[1mLinking CXX executable servo_calcs_unit_tests[0m
+[20.164s] [ 93%] Built target servo_calcs_unit_tests
+[33.951s] [ 96%] [32m[1mLinking CXX executable servo_pose_tracking_demo[0m
+[34.296s] [ 96%] Built target servo_pose_tracking_demo
+[35.170s] [100%] [32m[1mLinking CXX executable test_servo_pose_tracking[0m
+[35.528s] [100%] Built target test_servo_pose_tracking
+[35.541s] Invoked command in '/home/ws/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/moveit_servo -- -j4 -l4
+[35.680s] Invoking command in '/home/ws/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/roarm_ws_em0/build/moveit_servo
+[35.688s] -- Install configuration: "Release"
+[35.689s] -- Execute custom install script
+[35.690s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/servo_node_main
+[35.698s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo
+[35.706s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/fake_command_publisher
+[35.714s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/collision_check.h
+[35.722s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/enforce_limits.hpp
+[35.730s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/make_shared_from_pool.h
+[35.738s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/parameter_descriptor_builder.hpp
+[35.745s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/pose_tracking.h
+[35.753s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo.h
+[35.762s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_calcs.h
+[35.770s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_node.h
+[35.778s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_parameters.h
+[35.786s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_server.h
+[35.794s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/status_codes.h
+[35.802s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/include/moveit_servo/utilities.h
+[35.811s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/launch/demo.launch.py
+[35.819s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/launch/servo_control.launch.py
+[35.829s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/demo.rviz
+[35.837s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/roarm_simulated_config.yaml
+[35.844s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/servo_control.rviz
+[35.853s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+[35.861s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+[35.869s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+[35.877s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+[35.885s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.sh
+[35.892s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+[35.900s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/path.sh
+[35.907s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/path.dsv
+[35.914s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.bash
+[35.922s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.sh
+[35.933s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.zsh
+[35.942s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.dsv
+[35.950s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.dsv
+[35.959s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+[35.968s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+[35.975s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_targets-extras.cmake
+[35.983s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.992s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+[36.002s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+[36.010s] -- Symlinking: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.xml
+[36.020s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5
+[36.022s] -- Set runtime path of "/home/ws/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5" to ""
+[36.022s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib.so
+[36.022s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5
+[36.022s] -- Set runtime path of "/home/ws/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5" to ""
+[36.022s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so
+[36.022s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/lib/libpose_tracking.so
+[36.024s] -- Set runtime path of "/home/ws/roarm_ws_em0/install/moveit_servo/lib/libpose_tracking.so" to ""
+[36.024s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/lib/libservo_node.so
+[36.024s] -- Set runtime path of "/home/ws/roarm_ws_em0/install/moveit_servo/lib/libservo_node.so" to ""
+[36.024s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/lib/libservo_controller_input.so
+[36.024s] -- Set runtime path of "/home/ws/roarm_ws_em0/install/moveit_servo/lib/libservo_controller_input.so" to ""
+[36.027s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport.cmake
+[36.028s] -- Installing: /home/ws/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport-release.cmake
+[36.032s] Invoked command in '/home/ws/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/roarm_ws_em0/build/moveit_servo

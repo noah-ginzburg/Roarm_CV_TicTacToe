@@ -1,0 +1,103 @@
+[0.009s] Invoking command in '/home/ws/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ws/roarm_ws_em0/src/roarm_main/moveit_servo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/moveit_servo
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.224s] -- Detecting C compile features
+[0.224s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.326s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[0.328s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.443s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.586s] [0mmoveit_servo: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.590s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.603s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.606s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.639s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.642s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.649s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.660s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.852s] -- Found control_toolbox: 3.2.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.889s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.889s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.994s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.013s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.052s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.060s] -- Looking for pthread.h
+[1.155s] -- Looking for pthread.h - found
+[1.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.249s] -- Found Threads: TRUE  
+[1.303s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.330s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.397s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.469s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.493s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.615s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.699s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.974s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[1.981s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.005s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.058s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.060s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.064s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.141s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.171s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.173s] -- Configured cppcheck include dirs: /home/ws/roarm_ws_em0/src/roarm_main/moveit_servo/include
+[2.173s] -- Configured cppcheck exclude dirs and/or files: 
+[2.174s] -- Added test 'lint_cmake' to check CMake code style
+[2.174s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.174s] -- Added test 'xmllint' to check XML markup files
+[2.177s] -- Configuring done
+[2.352s] -- Generating done
+[2.355s] -- Build files have been written to: /home/ws/roarm_ws_em0/build/moveit_servo
+[2.373s] Invoked command in '/home/ws/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ws/roarm_ws_em0/src/roarm_main/moveit_servo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/moveit_servo
+[2.373s] Invoking command in '/home/ws/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/moveit_servo -- -j4 -l4
+[2.465s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.465s] [  6%] [32mBuilding CXX object CMakeFiles/fake_command_publisher.dir/test/publish_fake_jog_commands.cpp.o[0m
+[2.467s] [  9%] [32mBuilding CXX object CMakeFiles/servo_controller_input.dir/src/teleop_demo/joystick_servo_example.cpp.o[0m
+[2.494s] [ 12%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/servo_parameters.cpp.o[0m
+[3.429s] [ 15%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.561s] [ 15%] Built target gtest_main
+[3.637s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.128s] [ 21%] [32m[1mLinking CXX executable fake_command_publisher[0m
+[8.399s] [ 21%] Built target fake_command_publisher
+[8.415s] [ 24%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/parameter_descriptor_builder.cpp.o[0m
+[9.954s] [ 27%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.012s] [ 27%] Built target gtest
+[14.076s] [ 30%] [32m[1mLinking CXX shared library libservo_controller_input.so[0m
+[14.274s] [ 33%] [32m[1mLinking CXX shared library libmoveit_servo_lib_parameters.so[0m
+[14.742s] [ 33%] Built target servo_controller_input
+[14.751s] [ 33%] Built target moveit_servo_lib_parameters
+[14.787s] [ 36%] [32mBuilding CXX object CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o[0m
+[14.796s] [ 39%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/enforce_limits.cpp.o[0m
+[14.813s] [ 45%] [32mBuilding CXX object CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o[0m
+[14.813s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/collision_check.cpp.o[0m
+[20.160s] [ 48%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo.cpp.o[0m
+[27.391s] [ 51%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o[0m
+[32.395s] [ 54%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/utilities.cpp.o[0m
+[43.564s] [ 57%] [32m[1mLinking CXX executable test_servo_collision[0m
+[44.803s] [ 57%] Built target test_servo_collision
+[49.218s] [ 60%] [32m[1mLinking CXX executable test_servo_integration[0m
+[49.577s] [ 60%] Built target test_servo_integration
+[74.757s] [ 63%] [32m[1mLinking CXX shared library libmoveit_servo_lib.so[0m
+[75.089s] [ 63%] Built target moveit_servo_lib
+[75.133s] [ 66%] [32mBuilding CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o[0m
+[75.134s] [ 69%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[75.146s] [ 72%] [32mBuilding CXX object CMakeFiles/servo_calcs_unit_tests.dir/test/servo_calcs_unit_tests.cpp.o[0m
+[84.158s] gmake[2]: *** [CMakeFiles/pose_tracking.dir/build.make:76: CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o] Interrupt
+[84.159s] gmake[1]: *** [CMakeFiles/Makefile2:230: CMakeFiles/pose_tracking.dir/all] Interrupt
+[84.159s] gmake[2]: *** wait: No child processes.  Stop.
+[84.159s] gmake[2]: *** Waiting for unfinished jobs....
+[84.160s] gmake[2]: *** wait: No child processes.  Stop.
+[84.160s] gmake[1]: *** [CMakeFiles/Makefile2:480: CMakeFiles/servo_calcs_unit_tests.dir/all] Error 2
+[84.161s] gmake[2]: *** [CMakeFiles/servo_node.dir/build.make:76: CMakeFiles/servo_node.dir/src/servo_node.cpp.o] Interrupt
+[84.161s] gmake[1]: *** [CMakeFiles/Makefile2:257: CMakeFiles/servo_node.dir/all] Interrupt
+[84.201s] gmake: *** [Makefile:146: all] Interrupt

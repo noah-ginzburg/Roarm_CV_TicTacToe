@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from manual_move_action/action/MoveInfo.action
+// generated code does not contain a copyright notice
+
+
+module manual_move_action {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MoveInfo_Goal {
+      double x;
+
+      double y;
+
+      double z;
+
+      @verbatim (language="comment", text=
+        "t = gripper target position")
+      double t;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveInfo_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MoveInfo_Feedback {
+      double progress;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/ws/roarm_ws_em0/build/manual_move_action/rosidl_generator_c/manual_move_action/msg/rosidl_generator_c__visibility_control.h

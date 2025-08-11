@@ -1,0 +1,1 @@
+Invoking command in '/home/ws/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/roarm_description -- -j4 -l4

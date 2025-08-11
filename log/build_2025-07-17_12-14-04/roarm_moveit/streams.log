@@ -1,0 +1,32 @@
+[0.014s] Invoking command in '/home/ws/roarm_ws_em0/build/roarm_moveit': CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_description:/home/ws/roarm_ws_em0/install/manual_move_action:/home/ws/roarm_ws_em0/install/roarm_moveit:/opt/ros/humble /usr/bin/cmake /home/ws/roarm_ws_em0/src/roarm_main/roarm_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/roarm_moveit
+[0.026s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.135s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.141s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.153s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.387s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.742s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.763s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.763s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.763s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.787s] -- Configuring done
+[0.863s] -- Generating done
+[0.885s] -- Build files have been written to: /home/ws/roarm_ws_em0/build/roarm_moveit
+[0.892s] Invoked command in '/home/ws/roarm_ws_em0/build/roarm_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_description:/home/ws/roarm_ws_em0/install/manual_move_action:/home/ws/roarm_ws_em0/install/roarm_moveit:/opt/ros/humble /usr/bin/cmake /home/ws/roarm_ws_em0/src/roarm_main/roarm_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/roarm_moveit
+[0.893s] Invoking command in '/home/ws/roarm_ws_em0/build/roarm_moveit': CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_description:/home/ws/roarm_ws_em0/install/manual_move_action:/home/ws/roarm_ws_em0/install/roarm_moveit:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/roarm_moveit -- -j4 -l4
+[0.961s] [35m[1mConsolidate compiler generated dependencies of target roarm_moveit__rosidl_generator_c[0m
+[0.974s] [ 10%] Built target roarm_moveit__rosidl_generator_c
+[0.992s] failed to create symbolic link '/home/ws/roarm_ws_em0/build/roarm_moveit/ament_cmake_python/roarm_moveit/roarm_moveit' because existing path cannot be removed: Is a directory
+[0.998s] [ 12%] Built target roarm_moveit__cpp
+[0.999s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_roarm_moveit.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_roarm_moveit] Error 1
+[1.000s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_roarm_moveit.dir/all] Error 2
+[1.000s] gmake[1]: *** Waiting for unfinished jobs....
+[1.016s] [35m[1mConsolidate compiler generated dependencies of target roarm_moveit__rosidl_typesupport_fastrtps_c[0m
+[1.020s] [35m[1mConsolidate compiler generated dependencies of target roarm_moveit__rosidl_typesupport_introspection_c[0m
+[1.037s] [ 23%] Built target roarm_moveit__rosidl_typesupport_fastrtps_c
+[1.064s] [ 34%] Built target roarm_moveit__rosidl_typesupport_introspection_c
+[1.065s] gmake: *** [Makefile:146: all] Error 2
+[1.065s] Invoked command in '/home/ws/roarm_ws_em0/build/roarm_moveit' returned '2': CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_description:/home/ws/roarm_ws_em0/install/manual_move_action:/home/ws/roarm_ws_em0/install/roarm_moveit:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/roarm_moveit -- -j4 -l4

@@ -1,0 +1,1 @@
+/home/ws/roarm_ws_em0/build/manual_move_action/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

@@ -1,0 +1,1 @@
+/home/ws/roarm_ws_em0/build/manual_move_action/rosidl_generator_py/manual_move_action/action/__init__.py

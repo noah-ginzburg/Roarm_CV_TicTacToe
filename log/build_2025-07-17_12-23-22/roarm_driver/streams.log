@@ -1,0 +1,19 @@
+[0.592s] Invoking command in '/home/ws/roarm_ws_em0/build/roarm_driver': PYTHONPATH=/home/ws/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ws/roarm_ws_em0/build/roarm_driver/build --no-deps symlink_data
+[0.777s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.778s]   warnings.warn(
+[0.778s] running develop
+[0.881s] running egg_info
+[0.882s] writing roarm_driver.egg-info/PKG-INFO
+[0.883s] writing dependency_links to roarm_driver.egg-info/dependency_links.txt
+[0.884s] writing entry points to roarm_driver.egg-info/entry_points.txt
+[0.884s] writing requirements to roarm_driver.egg-info/requires.txt
+[0.886s] writing top-level names to roarm_driver.egg-info/top_level.txt
+[0.887s] reading manifest file 'roarm_driver.egg-info/SOURCES.txt'
+[0.888s] writing manifest file 'roarm_driver.egg-info/SOURCES.txt'
+[0.888s] running build_ext
+[0.889s] Creating /home/ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm-driver.egg-link (link to .)
+[0.889s] Installing roarm_driver script to /home/ws/roarm_ws_em0/install/roarm_driver/lib/roarm_driver
+[0.890s] 
+[0.890s] Installed /home/ws/roarm_ws_em0/build/roarm_driver
+[0.890s] running symlink_data
+[1.088s] Invoked command in '/home/ws/roarm_ws_em0/build/roarm_driver' returned '0': PYTHONPATH=/home/ws/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ws/roarm_ws_em0/build/roarm_driver/build --no-deps symlink_data

@@ -1,0 +1,191 @@
+[0.025s] Invoking command in '/home/ws/roarm_ws_em0/build/manual_move_action': AMENT_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ws/roarm_ws_em0/src/roarm_main/manual_move_action -DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/manual_move_action
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.147s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.230s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.336s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.470s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.543s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.570s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.573s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.580s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.636s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.639s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.735s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.751s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.779s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.784s] -- Looking for pthread.h
+[0.863s] -- Looking for pthread.h - found
+[0.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.936s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.937s] -- Found Threads: TRUE  
+[0.969s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.992s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.008s] -- Found roarm_moveit: 0.3.0 (/home/ws/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake)
+[1.013s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.191s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.546s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.548s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.570s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.570s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.570s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.570s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.590s] -- Found PythonExtra: .so  
+[1.626s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.640s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.642s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.642s] -- Configured cppcheck include dirs: 
+[1.642s] -- Configured cppcheck exclude dirs and/or files: 
+[1.642s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.643s] -- Configured cpplint exclude dirs and/or files: 
+[1.643s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.643s] -- Added test 'lint_cmake' to check CMake code style
+[1.644s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.644s] -- Added test 'uncrustify' to check C / C++ code style
+[1.644s] -- Configured uncrustify additional arguments: 
+[1.645s] -- Added test 'xmllint' to check XML markup files
+[1.646s] -- Configuring done
+[1.696s] -- Generating done
+[1.704s] -- Build files have been written to: /home/ws/roarm_ws_em0/build/manual_move_action
+[1.718s] Invoked command in '/home/ws/roarm_ws_em0/build/manual_move_action' returned '0': AMENT_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ws/roarm_ws_em0/src/roarm_main/manual_move_action -DCMAKE_INSTALL_PREFIX=/home/ws/roarm_ws_em0/install/manual_move_action
+[1.718s] Invoking command in '/home/ws/roarm_ws_em0/build/manual_move_action': AMENT_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/manual_move_action -- -j4 -l4
+[1.763s] [35m[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_generator_c[0m
+[1.774s] [  2%] Built target manual_move_action__cpp
+[1.777s] [ 11%] Built target manual_move_action__rosidl_generator_c
+[1.785s] [ 11%] Built target ament_cmake_python_copy_manual_move_action
+[1.785s] [35m[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_cpp[0m
+[1.791s] [35m[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_introspection_c[0m
+[1.793s] [35m[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_fastrtps_cpp[0m
+[1.801s] [35m[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_c[0m
+[1.807s] [ 20%] Built target manual_move_action__rosidl_typesupport_fastrtps_cpp
+[1.808s] [ 37%] Built target manual_move_action__rosidl_typesupport_cpp
+[1.809s] [ 37%] Built target manual_move_action__rosidl_typesupport_introspection_c
+[1.820s] [ 45%] Built target manual_move_action__rosidl_typesupport_c
+[1.824s] [35m[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_introspection_cpp[0m
+[1.824s] [35m[1mConsolidate compiler generated dependencies of target manual_move_client[0m
+[1.845s] [ 48%] [32mBuilding CXX object CMakeFiles/manual_move_client.dir/src/manual_move_client.cpp.o[0m
+[1.854s] [ 57%] Built target manual_move_action__rosidl_typesupport_introspection_cpp
+[1.854s] [ 60%] [32mBuilding CXX object CMakeFiles/manual_move_server.dir/src/manual_move_server.cpp.o[0m
+[1.867s] [35m[1mConsolidate compiler generated dependencies of target manual_move_action__rosidl_typesupport_fastrtps_c[0m
+[1.994s] running egg_info
+[1.994s] writing manual_move_action.egg-info/PKG-INFO
+[1.994s] writing dependency_links to manual_move_action.egg-info/dependency_links.txt
+[1.994s] writing top-level names to manual_move_action.egg-info/top_level.txt
+[2.008s] reading manifest file 'manual_move_action.egg-info/SOURCES.txt'
+[2.008s] writing manifest file 'manual_move_action.egg-info/SOURCES.txt'
+[2.008s] [ 68%] Built target manual_move_action__rosidl_typesupport_fastrtps_c
+[2.049s] [ 68%] Built target ament_cmake_python_build_manual_move_action_egg
+[2.051s] [ 68%] Built target manual_move_action
+[2.083s] [ 71%] Built target manual_move_action__py
+[2.109s] [ 74%] [32mBuilding C object CMakeFiles/manual_move_action__rosidl_generator_py.dir/rosidl_generator_py/manual_move_action/action/_move_info_s.c.o[0m
+[2.240s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/manual_move_action/libmanual_move_action__rosidl_generator_py.so[0m
+[2.279s] [ 77%] Built target manual_move_action__rosidl_generator_py
+[2.302s] [ 80%] [32mBuilding C object CMakeFiles/manual_move_action__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/manual_move_action/_manual_move_action_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.371s] [ 82%] [32mBuilding C object CMakeFiles/manual_move_action__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/manual_move_action/_manual_move_action_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.396s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/manual_move_action/manual_move_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.465s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/manual_move_action/manual_move_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.475s] [ 88%] Built target manual_move_action__rosidl_typesupport_fastrtps_c__pyext
+[2.499s] [ 91%] [32mBuilding C object CMakeFiles/manual_move_action__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/manual_move_action/_manual_move_action_s.ep.rosidl_typesupport_c.c.o[0m
+[2.570s] [ 91%] Built target manual_move_action__rosidl_typesupport_introspection_c__pyext
+[2.586s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/manual_move_action/manual_move_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.632s] [ 94%] Built target manual_move_action__rosidl_typesupport_c__pyext
+[3.935s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_client.cpp:[m[K In member function ‘[01m[Kvoid MinimalActionClient::feedback_callback(rclcpp_action::ClientGoalHandle<manual_move_action::action::MoveInfo>::SharedPtr, std::shared_ptr<const manual_move_action::action::MoveInfo_Feedback_<std::allocator<void> > >)[m[K’:
+[3.935s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_client.cpp:58:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.935s]    58 |                     [01;35m[Kconst std::shared_ptr<const MoveInfo::Feedback> feedback[m[K)
+[3.935s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.974s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_point_client[m[K’ does not name a type
+[3.974s]    45 |   [01;31m[Kmove_point_client[m[K =
+[3.974s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.988s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:48:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[3.988s]    48 |   rclcpp::Client<[01;31m[Kstd_srvs[m[K::srv::Empty>::SharedPtr stop_client_;
+[3.988s]       |                  [01;31m[K^~~~~~~~[m[K
+[3.988s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:48:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.988s]    48 |   rclcpp::Client<std_srvs::srv::Empty[01;31m[K>[m[K::SharedPtr stop_client_;
+[3.988s]       |                                      [01;31m[K^[m[K
+[3.991s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:48:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.991s]    48 |   rclcpp::Client<std_srvs::srv::Empty>::[01;31m[KSharedPtr[m[K stop_client_;
+[3.991s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[3.991s]       |                                                  [32m[K;[m[K
+[3.991s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:48:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_client_[m[K’ does not name a type
+[3.993s]    48 |   rclcpp::Client<std_srvs::srv::Empty>::SharedPtr [01;31m[Kstop_client_[m[K;
+[3.993s]       |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[3.993s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_client_[m[K’ does not name a type
+[3.993s]    49 |   [01;31m[Kstop_client_[m[K = this->create_client<std_srvs::srv::Empty>("/move_group/stop");
+[3.993s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[4.023s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse manual_move_action::MinimalActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const manual_move_action::action::MoveInfo_Goal_<std::allocator<void> > >)[m[K’:
+[4.023s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:64:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.023s]    64 |               [01;35m[Kstd::shared_ptr<const CustomAction::Goal> goal[m[K)
+[4.023s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.028s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse manual_move_action::MinimalActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<manual_move_action::action::MoveInfo> >)[m[K’:
+[4.028s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_client_[m[K’ was not declared in this scope
+[4.028s]    82 |     if ([01;31m[Kstop_client_[m[K->wait_for_service(1s))
+[4.028s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.028s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:82:40:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[4.028s]    82 |     if (stop_client_->wait_for_service([01;31m[K1s[m[K))
+[4.028s]       |                                        [01;31m[K^~[m[K
+[4.033s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:84:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[4.033s]    84 |       auto stop_request = std::make_shared<[01;31m[Kstd_srvs[m[K::srv::Empty::Request>();
+[4.033s]       |                                            [01;31m[K^~~~~~~~[m[K
+[4.033s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:84:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.033s]    84 |       auto stop_request = std::[01;31m[Kmake_shared<std_srvs::srv::Empty::Request>[m[K();
+[4.033s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.034s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:84:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[4.034s]    84 |       auto stop_request = [01;31m[Kstd::make_shared<std_srvs::srv::Empty::Request>()[m[K;
+[4.034s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.034s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.035s]                  from [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:4[m[K:
+[4.035s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[4.035s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[4.035s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.035s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.035s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:84:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.035s]    84 |       auto stop_request = [01;31m[Kstd::make_shared<std_srvs::srv::Empty::Request>()[m[K;
+[4.035s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.037s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:71:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.038s]    71 |   rclcpp_action::CancelResponse handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandle> goal_handle[m[K)
+[4.038s]       |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.042s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:[m[K In member function ‘[01m[Kvoid manual_move_action::MinimalActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<manual_move_action::action::MoveInfo> >)[m[K’:
+[4.042s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:98:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kqueue_mutex[m[K’ was not declared in this scope; did you mean ‘[01m[Kqueue_mutex_[m[K’?
+[4.042s]    98 |     std::lock_guard<std::mutex> lock([01;31m[Kqueue_mutex[m[K); // Lock mutex
+[4.042s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[4.042s]       |                                      [32m[Kqueue_mutex_[m[K
+[4.053s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:[m[K In member function ‘[01m[Kvoid manual_move_action::MinimalActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<manual_move_action::action::MoveInfo> >)[m[K’:
+[4.053s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:158:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = roarm_moveit::srv::MovePointCmd; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<roarm_moveit::srv::MovePointCmd_Response_<std::allocator<void> > > >][m[K’ is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.053s]   158 |       moveResponse = move_point_client->async_send_request(moveReq[01;35m[K)[m[K;
+[4.053s]       |                                                                   [01;35m[K^[m[K
+[4.053s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.053s]                  from [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:9[m[K:
+[4.053s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.053s]   415 |     [01;36m[Koperator[m[K SharedFuture() {return this->future.share();}
+[4.054s]       |     [01;36m[K^~~~~~~~[m[K
+[4.057s] [01m[K/home/ws/roarm_ws_em0/src/roarm_main/manual_move_action/src/manual_move_server.cpp:166:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kshould_stop[m[K’ was not declared in this scope; did you mean ‘[01m[Kshould_stop_[m[K’?
+[4.057s]   166 |       if ([01;31m[Kshould_stop[m[K)
+[4.057s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[4.057s]       |           [32m[Kshould_stop_[m[K
+[4.851s] gmake[2]: *** [CMakeFiles/manual_move_server.dir/build.make:76: CMakeFiles/manual_move_server.dir/src/manual_move_server.cpp.o] Error 1
+[4.851s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/manual_move_server.dir/all] Error 2
+[4.851s] gmake[1]: *** Waiting for unfinished jobs....
+[5.223s] [ 97%] [32m[1mLinking CXX executable manual_move_client[0m
+[5.425s] [ 97%] Built target manual_move_client
+[5.427s] gmake: *** [Makefile:146: all] Error 2
+[5.430s] Invoked command in '/home/ws/roarm_ws_em0/build/manual_move_action' returned '2': AMENT_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit:/home/ws/roarm_ws_em0/install/roarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/roarm_ws_em0/install/roarm_moveit/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/manual_move_action -- -j4 -l4

@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../build/img_converter_pub/img_converter_pub.egg-info
+writing ../../../build/img_converter_pub/img_converter_pub.egg-info/PKG-INFO
+writing dependency_links to ../../../build/img_converter_pub/img_converter_pub.egg-info/dependency_links.txt
+writing entry points to ../../../build/img_converter_pub/img_converter_pub.egg-info/entry_points.txt
+writing requirements to ../../../build/img_converter_pub/img_converter_pub.egg-info/requires.txt
+writing top-level names to ../../../build/img_converter_pub/img_converter_pub.egg-info/top_level.txt
+writing manifest file '../../../build/img_converter_pub/img_converter_pub.egg-info/SOURCES.txt'
+reading manifest file '../../../build/img_converter_pub/img_converter_pub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/img_converter_pub/img_converter_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ws/roarm_ws_em0/build/img_converter_pub/build
+creating /home/ws/roarm_ws_em0/build/img_converter_pub/build/lib
+creating /home/ws/roarm_ws_em0/build/img_converter_pub/build/lib/img_converter_pub
+copying img_converter_pub/__init__.py -> /home/ws/roarm_ws_em0/build/img_converter_pub/build/lib/img_converter_pub
+copying img_converter_pub/img_converter_pub.py -> /home/ws/roarm_ws_em0/build/img_converter_pub/build/lib/img_converter_pub
+running install
+running install_lib
+creating /home/ws/roarm_ws_em0/install/img_converter_pub/lib/python3.10/site-packages/img_converter_pub
+copying /home/ws/roarm_ws_em0/build/img_converter_pub/build/lib/img_converter_pub/__init__.py -> /home/ws/roarm_ws_em0/install/img_converter_pub/lib/python3.10/site-packages/img_converter_pub
+copying /home/ws/roarm_ws_em0/build/img_converter_pub/build/lib/img_converter_pub/img_converter_pub.py -> /home/ws/roarm_ws_em0/install/img_converter_pub/lib/python3.10/site-packages/img_converter_pub
+byte-compiling /home/ws/roarm_ws_em0/install/img_converter_pub/lib/python3.10/site-packages/img_converter_pub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ws/roarm_ws_em0/install/img_converter_pub/lib/python3.10/site-packages/img_converter_pub/img_converter_pub.py to img_converter_pub.cpython-310.pyc
+running install_data
+creating /home/ws/roarm_ws_em0/install/img_converter_pub/share/ament_index
+creating /home/ws/roarm_ws_em0/install/img_converter_pub/share/ament_index/resource_index
+creating /home/ws/roarm_ws_em0/install/img_converter_pub/share/ament_index/resource_index/packages
+copying resource/img_converter_pub -> /home/ws/roarm_ws_em0/install/img_converter_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/ws/roarm_ws_em0/install/img_converter_pub/share/img_converter_pub
+running install_egg_info
+Copying ../../../build/img_converter_pub/img_converter_pub.egg-info to /home/ws/roarm_ws_em0/install/img_converter_pub/lib/python3.10/site-packages/img_converter_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing img_converter_pub script to /home/ws/roarm_ws_em0/install/img_converter_pub/lib/img_converter_pub
+writing list of installed files to '/home/ws/roarm_ws_em0/build/img_converter_pub/install.log'
