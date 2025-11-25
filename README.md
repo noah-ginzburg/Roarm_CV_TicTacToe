@@ -11,11 +11,11 @@ manual_move_action is a wrapper class which uses the pre-built move_it command f
 
 Once the arm is set up, and environment setup is completed run:
 
-ros2 run manual_move_action manual_move_server
+	ros2 run manual_move_action manual_move_server
 
 in a new terminal:
 
-ros2 run manual_move_action manual_move_client
+	ros2 run manual_move_action manual_move_client
 
 
 You should see the arm move to the specified coordinates in manual_move_client.
