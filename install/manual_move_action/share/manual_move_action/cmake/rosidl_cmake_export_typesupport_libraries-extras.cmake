@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/manual_move_action/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

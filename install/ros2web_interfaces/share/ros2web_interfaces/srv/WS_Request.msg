@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_cmake/srv/WS_Request.msg

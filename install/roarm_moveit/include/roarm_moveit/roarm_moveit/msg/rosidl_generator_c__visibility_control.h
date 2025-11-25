@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_generator_c/roarm_moveit/msg/rosidl_generator_c__visibility_control.h

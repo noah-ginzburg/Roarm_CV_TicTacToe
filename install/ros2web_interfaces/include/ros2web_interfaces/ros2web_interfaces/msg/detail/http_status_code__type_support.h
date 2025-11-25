@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_c/ros2web_interfaces/msg/detail/http_status_code__type_support.h

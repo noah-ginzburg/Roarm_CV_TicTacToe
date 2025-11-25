@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/WSMsg.msg

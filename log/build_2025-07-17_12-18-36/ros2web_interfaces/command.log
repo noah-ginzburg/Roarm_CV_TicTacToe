@@ -1,1 +1,0 @@
-Invoking command in '/home/ws/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/ros2web_interfaces -- -j4 -l4

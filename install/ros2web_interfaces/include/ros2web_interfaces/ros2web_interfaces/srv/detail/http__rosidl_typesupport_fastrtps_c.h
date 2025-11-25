@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_typesupport_fastrtps_c/ros2web_interfaces/srv/detail/http__rosidl_typesupport_fastrtps_c.h

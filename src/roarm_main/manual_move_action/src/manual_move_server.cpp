@@ -19,7 +19,7 @@
 
 using namespace std::chrono_literals;
 
-namespace manual_move_action // <-- Replace with your desired namespace
+namespace manual_move_action 
 {
 
 const double NO_T = -1;
@@ -155,14 +155,10 @@ private:
 
     if (goal->t != NO_T)
     {
-      RCLCPP_INFO(this->get_logger(), "entered if statment");
       auto msg = std_msgs::msg::Float32();
       msg.data = goal->t; 
-      RCLCPP_INFO(this->get_logger(), "pubishing to gripper");
-      gripper_cmd_pub_->publish(msg);
-      RCLCPP_INFO(this->get_logger(), "published to gripper");
-      
 
+      gripper_cmd_pub_->publish(msg);
     }
 
     if (goal->x != -1.0)
@@ -178,7 +174,7 @@ private:
       moveReq->y = yI;
       moveReq->z = zI;
     
-      RCLCPP_INFO(this->get_logger(), "no torqque, Sending move req");
+      //RCLCPP_INFO(this->get_logger(), "no torqque, Sending move req");
       auto future_and_request = move_point_client->async_send_request(moveReq);
       moveResponse = future_and_request.future.share();
     }
@@ -195,8 +191,8 @@ private:
         return;
       }
 
-      // Optionally add feedback here
-
+      //Note - this will only print success results to terminal if the actual arm is activated and moving
+      //The moveResponse is dependent on move_it's functionality
       if (moveResponse.valid() && moveResponse.wait_for(std::chrono::seconds(
                                       0)) == std::future_status::ready)
       {
@@ -227,7 +223,7 @@ private:
   }
 };
 
-} // namespace manual_move_action
+} 
 
 int main(int argc, char **argv)
 {

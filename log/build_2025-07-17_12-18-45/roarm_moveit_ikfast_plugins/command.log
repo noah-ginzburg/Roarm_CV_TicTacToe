@@ -1,4 +1,0 @@
-Invoking command in '/home/ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins -- -j4 -l4
-Invoked command in '/home/ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins -- -j4 -l4
-Invoking command in '/home/ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins
-Invoked command in '/home/ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins

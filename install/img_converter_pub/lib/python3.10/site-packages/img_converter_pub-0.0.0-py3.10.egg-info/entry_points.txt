@@ -1,3 +1,0 @@
-[console_scripts]
-img_converter_pub = img_converter_pub.img_converter_pub:main
-

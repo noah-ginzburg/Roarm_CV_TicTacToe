@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/roarm_moveit/ament_cmake_core/roarm_moveitConfig-version.cmake

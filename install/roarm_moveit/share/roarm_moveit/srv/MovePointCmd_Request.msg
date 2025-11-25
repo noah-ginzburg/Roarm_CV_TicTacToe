@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_cmake/srv/MovePointCmd_Request.msg

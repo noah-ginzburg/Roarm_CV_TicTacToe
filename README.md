@@ -2,6 +2,26 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dudulrx/roarm_ws_em0)
 ![GitHub repo size](https://img.shields.io/github/repo-size/dudulrx/roarm_ws_em0) ![GitHub](https://img.shields.io/github/license/dudulrx/roarm_ws_em0) ![GitHub last commit](https://img.shields.io/github/last-commit/dudulrx/roarm_ws_em0)
 
+# Description
+This repo contains code for a ROS2-based control framework that actuates a 5-DOF robotic arm using TCP commands and image recognition.
+
+The robotic arm used is the WaveShare Roarm M2-S (https://www.waveshare.com/wiki/RoArm-M2-S). The arm comes with pre-installed ros2 packages. These include all the packages seen in src/roarm_main, EXCEPT for manual_move_action which was coded by me.
+
+manual_move_action is a wrapper class which uses the pre-built move_it command functionality. MoveIt is responsible for sending the actual movement and execution commands. My manual_move_action wrapper class allows coordinates to be sent, places in a queue, and executed sequentially. It also contains both pose information (x, y, z), and torque information, allowing simultaneous movement of the arm and the gripper.
+
+Once the arm is set up, and environment setup is completed run:
+
+ros2 run manual_move_action manual_move_server
+
+in a new terminal:
+
+ros2 run manual_move_action manual_move_client
+
+
+You should see the arm move to the specified coordinates in manual_move_client.
+
+
+Below is a copy-paste of waveshare's setup guide for the robotic arm.
 
 # ROS2 + Moveit2 for RoArm-M2-S
 

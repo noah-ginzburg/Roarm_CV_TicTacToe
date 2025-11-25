@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ws/roarm_ws_em0/build/manual_move_action/manual_move_client" "/home/ws/roarm_ws_em0/build/manual_move_action/manual_move_server" "TARGETS" "manual_move_client" "manual_move_server" "DESTINATION" "lib/manual_move_action")

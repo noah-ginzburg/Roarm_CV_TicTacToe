@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_generator_py/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_fastrtps_c.c

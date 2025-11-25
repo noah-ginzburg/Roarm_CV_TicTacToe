@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/roarm_description/ament_cmake_core/roarm_descriptionConfig.cmake

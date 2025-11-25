@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/manual_move_action/rosidl_typesupport_fastrtps_c/manual_move_action/action/detail/move_info__rosidl_typesupport_fastrtps_c.h

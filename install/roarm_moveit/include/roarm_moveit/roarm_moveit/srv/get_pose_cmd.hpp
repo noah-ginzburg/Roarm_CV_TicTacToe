@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_generator_cpp/roarm_moveit/srv/get_pose_cmd.hpp

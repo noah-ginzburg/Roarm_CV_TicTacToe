@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/manual_move_action/ament_cmake_core/manual_move_actionConfig-version.cmake

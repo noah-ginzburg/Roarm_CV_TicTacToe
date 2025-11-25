@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/src/roarm_main/roarm_moveit/launch/command_control_moveit_rviz.launch.py

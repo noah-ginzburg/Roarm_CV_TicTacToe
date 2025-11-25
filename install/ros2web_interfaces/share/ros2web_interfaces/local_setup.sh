@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/ros2web_interfaces/ament_cmake_environment_hooks/local_setup.sh

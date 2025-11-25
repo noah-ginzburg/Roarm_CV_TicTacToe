@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/manual_move_action/rosidl_generator_py/manual_move_action/_manual_move_action_s.ep.rosidl_typesupport_introspection_c.c

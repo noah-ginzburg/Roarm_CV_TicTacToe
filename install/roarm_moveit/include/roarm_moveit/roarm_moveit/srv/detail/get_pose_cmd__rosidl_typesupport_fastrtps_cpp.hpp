@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_fastrtps_cpp/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_cpp.hpp

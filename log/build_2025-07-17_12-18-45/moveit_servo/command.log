@@ -1,4 +1,0 @@
-Invoking command in '/home/ws/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/moveit_servo -- -j4 -l4
-Invoked command in '/home/ws/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/roarm_ws_em0/build/moveit_servo -- -j4 -l4
-Invoking command in '/home/ws/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/roarm_ws_em0/build/moveit_servo
-Invoked command in '/home/ws/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/roarm_ws_em0/build/moveit_servo

@@ -1,1 +1,0 @@
-/home/ws/roarm_ws_em0/build/roarm_moveit_cmd/ament_cmake_environment_hooks/local_setup.sh
