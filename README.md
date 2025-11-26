@@ -22,6 +22,7 @@ To install the packages for the CV node, enter the following into terminal:
     sudo apt update
     sudo apt install python3 python3-pip python3-venv build-essential
 
+*Note that git history got messed up during rebasing, and a duplicate commit can be seen - the first commit to the repo is titled "Initial commit - imported Waveshare codebase"
 
 # Workflow
 TCP: On a raspberry pi or any microcomputer, run the script csi_tcp.py. Ensure the tcp protocol is working over an internet connection.
