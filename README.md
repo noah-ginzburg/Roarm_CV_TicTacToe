@@ -2,8 +2,9 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dudulrx/roarm_ws_em0)
 ![GitHub repo size](https://img.shields.io/github/repo-size/dudulrx/roarm_ws_em0) ![GitHub](https://img.shields.io/github/license/dudulrx/roarm_ws_em0) ![GitHub last commit](https://img.shields.io/github/last-commit/dudulrx/roarm_ws_em0)
 
+
 # Description
-This repo contains code for a ROS2-based control framework that actuates a 5-DOF robotic arm using TCP commands and image recognition.
+This repo contains code for a ROS2-based control framework that actuates a 5-DOF robotic arm using TCP commands and image recognition (Ubuntu 22.04 Jammy Jellyfish).
 
 The robotic arm used is the WaveShare Roarm M2-S (https://www.waveshare.com/wiki/RoArm-M2-S). The arm comes with pre-installed ros2 packages. These include all the packages seen in src/roarm_main, EXCEPT for manual_move_action which was coded by me.
 
@@ -11,14 +12,22 @@ manual_move_action is a wrapper class which uses the pre-built move_it command f
 
 Once the arm is set up, and environment setup is completed run:
 
-	ros2 run manual_move_action manual_move_server
-
-in a new terminal:
-
-	ros2 run manual_move_action manual_move_client
-
+    ros2 launch manual_move_action manual_move_action.launch.py
 
 You should see the arm move to the specified coordinates in manual_move_client.
+
+
+To install the packages for the CV node, enter the following into terminal:
+
+    sudo apt update
+    sudo apt install python3 python3-pip python3-venv build-essential
+
+
+# Workflow
+TCP: On a raspberry pi or any microcomputer, run the script csi_tcp.py. Ensure the tcp protocol is working over an internet connection.
+Movement: Launch the manual_move_action launch file
+CV Node: Proof of the CV Node can be working in the tictactoe_cv directory. It works, but not currently hooked up to the ROS2 system. 
+- The two pictures show a before and after photo of the tic tac toe board
 
 
 Below is a copy-paste of waveshare's setup guide for the robotic arm.
