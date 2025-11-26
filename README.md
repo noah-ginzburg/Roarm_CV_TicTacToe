@@ -26,7 +26,10 @@ To install the packages for the CV node, enter the following into terminal:
 
 # Workflow
 TCP: On a raspberry pi or any microcomputer, run the script csi_tcp.py. Ensure the tcp protocol is working over an internet connection.
-Movement: Launch the manual_move_action launch file
+Movement: Launch the manual_move_action launch file. Ensure to run the following upon cloning the repo to compile this project:
+    colcon build
+    source install/setup.bash
+
 CV Node: Proof of the CV Node can be working in the tictactoe_cv directory. It works, but not currently hooked up to the ROS2 system. 
 - The two pictures show a before and after photo of the tic tac toe board
 
